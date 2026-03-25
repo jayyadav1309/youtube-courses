@@ -1,22 +1,21 @@
 import React from "react";
 import './App.css';
-import { Button, Container,Row,Col } from 'reactstrap';
-import { ToastContainer , toast } from "react-toastify";
+import {Container,Row,Col } from 'reactstrap';
+import { ToastContainer} from "react-toastify";
 import Home from "./components/Home";
-import Course from "./components/Course";
 import { Helmet } from "react-helmet";
 import Allcourses from "./components/Allcourses";
 import AddCourse from "./components/AddCourse";
 import Header from "./components/Header";
 import Menus from "./components/Menus";
-import { BrowserRouter as Router,Route, BrowserRouter,Routes} from "react-router-dom";
+import { BrowserRouter as Router,Route,Routes} from "react-router-dom";
 
 function App() {
   
 
-  const btnHandle = () =>{
-  toast.success("Done",{position:"top-center"});
-  };
+  //const btnHandle = () =>{
+  //toast.success("Done",{position:"top-center"});
+ // };
 
   
   return (
